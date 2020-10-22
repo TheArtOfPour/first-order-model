@@ -93,7 +93,7 @@ The code will create a folder in the log directory (each run will create a time-
 Checkpoints will be saved to this folder.
 To check the loss values during training see ```log.txt```.
 You can also check training data reconstructions in the ```train-vis``` subfolder.
-By default the batch size is tunned to run on 2 or 4 Titan-X gpu (appart from speed it does not make much difference). You can change the batch size in the train_params in corresponding ```.yaml``` file.
+By default the batch size is tunned to run on 2 or 4 Titan-X gpu (apart from speed it does not make much difference). You can change the batch size in the train_params in corresponding ```.yaml``` file.
 
 ### Evaluation on video reconstruction
 
